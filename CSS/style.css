@@ -244,3 +244,21 @@ footer{
         margin-top: 40px;
     }
 }
+
+
+@media(max-width: 1175px){
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .dif{
+        margin-top: 0;
+    }
+}
